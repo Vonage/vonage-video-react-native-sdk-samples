@@ -69,11 +69,19 @@ For details on each sample, see the README.md file in each sample directory.
 - `cd Signaling/`
 - `cd ScreenSharing/`
 
-3. Install the required node modules: `npm install`
+3. Install the required node modules: `npm install`.
 
-4. For iOS, install the Podfile's dependencies: `cd ios/ && pod install`
+4. Install the required Gems: `bundle install`.
 
-5. In the App.js file, set the `applicationId`, `sessionId`, and `token` properties to your Vonage Video application ID, a Vonage Video session ID, and a token for that session.
+5. For iOS, install the Podfile's dependencies: `cd ios/ && bundle exec pod install`.
+
+6. In the App.js file, set the `applicationId`, `sessionId`, and `token` properties to your Vonage Video application ID, a Vonage Video session ID, and a token for that session.
+
+Run the app:
+
+* For Android: `npm run android`
+
+* For iOS: `npm run ios`
 
 ## Development and Contributing
 
