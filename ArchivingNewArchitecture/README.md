@@ -56,5 +56,5 @@ This sample includes the following New Architecture-specific files:
 ## Further Reading
 
 - [Vonage Video React Native SDK](https://vonage.github.io/video-docs/video-react-native-reference/latest)
-- [Vonage Video Archiving Guide](https://tokbox.com/developer/guides/archiving)
+- [Vonage Video Archiving Guide](https://developer.vonage.com/en/video/guides/archiving/overview?source=video)
 - [React Native New Architecture](https://reactnative.dev/docs/the-new-architecture/landing-page)
