@@ -1,6 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {Component} from 'react';
 import {
+  SafeAreaView,
   StyleSheet,
   ScrollView,
   View,
@@ -275,7 +276,7 @@ class App extends Component {
           </OTSession>
         </View>
 
-        <View style={styles.buttonWrapperView}>
+        <View style={styles.buttonView}>
           <Button
             title={
               this.state.localPublishAudio ? 'Turn mic off' : 'Turn mic on'
@@ -298,9 +299,9 @@ class App extends Component {
 
   joinVideoCall = () => {
     return (
-      <View style={styles.fullView}>
+      <SafeAreaView style={styles.fullView}>
         <Button onPress={this.joinCall} title="Join call" />
-      </View>
+      </SafeAreaView>
     );
   };
 
@@ -310,7 +311,7 @@ class App extends Component {
 }
 
 const styles = StyleSheet.create({
-  buttonWrapperView: {
+  buttonView: {
     height: 50,
     display: 'flex',
     width: '100%',
@@ -321,8 +322,6 @@ const styles = StyleSheet.create({
     alignContent: 'center',
   },
   fullView: {
-    padding: 25,
-    marginTop: 20,
     flex: 1,
   },
   publisherStyle: {

@@ -9,12 +9,12 @@
     "start": "react-native start",
     "test": "jest"
   }, 
-    "dependencies": {      
-    "@vonage/client-sdk-video-react-native": "2.33.2",
+  "dependencies": {      
+    "@vonage/client-sdk-video-react-native": "2.31.1",
     "react": "19.1.0",
     "react-native": "0.81.0"
   },
-    "devDependencies": {
+  "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
