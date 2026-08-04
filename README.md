@@ -34,9 +34,25 @@ _These samples demonstrate how to use @vonage/client-sdk-video-react-native  to 
 
   This sample application shows how to connect to an OpenTok session and implement OpenTok Signaling to create a text chat for both iOS and Android using the OpenTok React Native API.
 
-- [ScreenSharing](https://github.com/Vonage/vonage-video-react-native-sdk-samples/tree/master/Archiving):
+- [ScreenSharing](https://github.com/Vonage/vonage-video-react-native-sdk-samples/tree/master/ScreenSharing):
 
   This sample application shows how to toggle between publishing a screen-sharing stream and a camera feed stream. Note that the screen-sharing stream shares the entire contents of the screen, so the local publisher and subscriber views are hidden (`{width: 0, height: 0}`) when publishing the screen-sharing stream (so they don't appear in the published stream).
+
+### New Architecture Samples
+
+The following samples demonstrate the same functionality as their counterparts above, but configured for React Native's **New Architecture** (Fabric renderer and TurboModules):
+
+- [ArchivingNewArchitecture](https://github.com/Vonage/vonage-video-react-native-sdk-samples/tree/master/ArchivingNewArchitecture):
+
+  This sample shows archiving indicators using the New Architecture. Same as the Archiving sample, with the additional native infrastructure required for Fabric components.
+
+- [BasicVideoChatNewArchitecture](https://github.com/Vonage/vonage-video-react-native-sdk-samples/tree/master/BasicVideoChatNewArchitecture):
+
+  This sample shows basic video chat using the New Architecture. Same as the Basic Video Chat sample, with the additional native infrastructure required for Fabric components.
+
+- [MultipartyNewArchitecture](https://github.com/Vonage/vonage-video-react-native-sdk-samples/tree/master/MultipartyNewArchitecture):
+
+  This sample shows multiparty video calls using the New Architecture. Same as the Multiparty sample, with the additional native infrastructure required for Fabric components.
 
 For details on each sample, see the README.md file in each sample directory.
 
@@ -68,6 +84,9 @@ For details on each sample, see the README.md file in each sample directory.
 - `cd Multiparty/`
 - `cd Signaling/`
 - `cd ScreenSharing/`
+- `cd ArchivingNewArchitecture/`
+- `cd BasicVideoChatNewArchitecture/`
+- `cd MultipartyNewArchitecture/`
 
 3. Install the required node modules: `npm install`.
 
