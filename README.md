@@ -26,6 +26,10 @@ _These samples demonstrate how to use @vonage/client-sdk-video-react-native  to 
   publish a stream, and subscribe to multiple streams for both iOS and
   Android using the OpenTok React Native API.
 
+- [Calling Services](https://github.com/Vonage/vonage-video-react-native-sdk-samples/tree/main/CallingServices):
+
+  This sample application shows how to run a video call through CallKit (iOS) and ConnectionService (Android) using react-native-callkeep and the SDK's calling-services API, so the operating system controls the call's audio lifecycle.
+
 - [Multiparty](https://github.com/Vonage/vonage-video-react-native-sdk-samples/tree/master/Multiparty):
 
   This sample application shows how to arrange videos and to toggle the mic and camera in multiparty calls.
